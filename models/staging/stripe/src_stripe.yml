@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: dbauc
+    schema: dbt_auc
+    tables:
+      - name: raw_payments
